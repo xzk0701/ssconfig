@@ -5,7 +5,7 @@ bypass-tun = 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12,127.0.0.0/24,0.0.0.0/8, 1
 dns-server = 114.114.114.114,119.29.29.29,8.8.8.8,178.79.131.110,223.6.6.6,223.5.5.5,114.114.115.115
 
 [Proxy]
-Proxy = custom,45.32.70.157,443,aes-256-cfb,qweasz789,https://github.com/xzk0701/SSEncrypt/raw/master/SSEncrypt.module
+Proxy = custom,$ipdress,$port,aes-256-cfb,$password,https://github.com/xzk0701/SSEncrypt/raw/master/SSEncrypt.module
 
 [Rule]
 
@@ -592,8 +592,11 @@ radio.itunes.apple.com = 184.87.100.246
 radio-services.itunes.apple.com = 184.87.100.246
 radio-activity.itunes.apple.com = 184.87.100.246
 # Appple Music Streaming and iOS/OS X Apps (Avg RTT: 15.3636363636ms)
-aod.itunes.apple.com = 61.130.25.232
+aod.itunes.apple.com = 17.253.85.205
 mvod.itunes.apple.com = 61.130.25.232
 iosapps.itunes.apple.com = 61.130.25.232
 osxapps.itunes.apple.com = 61.130.25.232
-streamingaudio.itunes.apple.com = 61.130.25.232
+streamingaudio.itunes.apple.com = 17.253.85.205
+# Apple Music (Avg RTT: 36.4ms)
+# Beats 1 Radio (Not Available in Mainland China) (Avg RTT: 45.85ms)
+itsliveradio.apple.com = 203.253.111.80
