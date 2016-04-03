@@ -8,27 +8,6 @@ dns-server = 114.114.114.114,119.29.29.29,8.8.8.8,178.79.131.110,223.6.6.6,223.5
 Proxy = custom,45.32.70.157,443,aes-256-cfb,qweasz789,https://github.com/xzk0701/SSEncrypt/raw/master/SSEncrypt.module
 
 [Rule]
-# API-1-ChinaNetCenter (Avg RTT: 15.3529411765ms)
-se.itunes.apple.com = 115.231.31.15
-su.itunes.apple.com = 115.231.31.15
-upp.itunes.apple.com = 115.231.31.15
-play.itunes.apple.com = 115.231.31.15
-client-api.itunes.apple.com = 115.231.31.15
-# API-2-ChinaCache (Avg RTT: 15.3571428571ms)
-itunes.apple.com = 58.220.22.154
-init.itunes.apple.com = 58.220.22.154
-# API-HK-Akamai-1 (Avg RTT: 40.65ms)
-search.itunes.apple.com = 184.87.97.50
-# API-HK-Akamai-2-AMRadio (Avg RTT: 37.5ms)
-radio.itunes.apple.com = 184.87.100.246
-radio-services.itunes.apple.com = 184.87.100.246
-radio-activity.itunes.apple.com = 184.87.100.246
-# Appple Music Streaming and iOS/OS X Apps (Avg RTT: 15.3636363636ms)
-aod.itunes.apple.com = 61.130.25.232
-mvod.itunes.apple.com = 61.130.25.232
-iosapps.itunes.apple.com = 61.130.25.232
-osxapps.itunes.apple.com = 61.130.25.232
-streamingaudio.itunes.apple.com = 61.130.25.232
 
 DOMAIN-SUFFIX,v2ex.com,DIRECT
 DOMAIN-SUFFIX,t66y.com,Proxy
@@ -595,3 +574,26 @@ IP-CIDR,172.16.0.0/12,DIRECT
 IP-CIDR,127.0.0.0/8,DIRECT
 GEOIP,CN,DIRECT
 FINAL,Proxy
+
+[Host]
+# API-1-ChinaNetCenter (Avg RTT: 15.3529411765ms)
+se.itunes.apple.com = 115.231.31.15
+su.itunes.apple.com = 115.231.31.15
+upp.itunes.apple.com = 115.231.31.15
+play.itunes.apple.com = 115.231.31.15
+client-api.itunes.apple.com = 115.231.31.15
+# API-2-ChinaCache (Avg RTT: 15.3571428571ms)
+itunes.apple.com = 58.220.22.154
+init.itunes.apple.com = 58.220.22.154
+# API-HK-Akamai-1 (Avg RTT: 40.65ms)
+search.itunes.apple.com = 184.87.97.50
+# API-HK-Akamai-2-AMRadio (Avg RTT: 37.5ms)
+radio.itunes.apple.com = 184.87.100.246
+radio-services.itunes.apple.com = 184.87.100.246
+radio-activity.itunes.apple.com = 184.87.100.246
+# Appple Music Streaming and iOS/OS X Apps (Avg RTT: 15.3636363636ms)
+aod.itunes.apple.com = 61.130.25.232
+mvod.itunes.apple.com = 61.130.25.232
+iosapps.itunes.apple.com = 61.130.25.232
+osxapps.itunes.apple.com = 61.130.25.232
+streamingaudio.itunes.apple.com = 61.130.25.232
